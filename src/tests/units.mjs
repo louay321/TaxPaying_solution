@@ -24,4 +24,13 @@ function findProduct(){
     }
 }
 
-module.exports = {read :readValues(), findProd: findProduct()};
+function calculatePrice(){
+    let price = 14.99;
+    let taxVal = 10;
+    price += (price*taxVal)/100;
+    // price = (Math.ceil(price * 20) / 20).toFixed(2);
+    price = Math.round((price + Number.EPSILON) * 100) / 100;
+    return price
+}
+
+module.exports = {read :readValues(), findProd: findProduct(), calcul: calculatePrice()};
