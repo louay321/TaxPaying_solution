@@ -4,8 +4,8 @@ Some cases are still not accurate in calculations and JEST needs configuration m
 
 ## commands: 
 
-### install dependencies : npm install
+### install dependencies  - npm install
 
-### run code : npm start
+### run code  - npm start
 
-### run tests : npm test
+### run tests  - npm test
