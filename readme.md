@@ -1,5 +1,6 @@
 # This is a problem solving code built with nodejs.
 
+Problem number : Problem1
 Some cases are still not accurate in calculations and JEST needs configuration modified to allow ECS6.
 
 ## commands: 
